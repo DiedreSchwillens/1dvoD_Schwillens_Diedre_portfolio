@@ -1,11 +1,11 @@
 # wpl1-2324-start
 
 # Naam
-Jouw Naam
+Diedre Schwillens
 
 # Studenten-nummer
-Studenten-nummer
+11902904
 
 # Klas
-Jouw klas
+1DVOD
 
