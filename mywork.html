@@ -2,9 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>My Work</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="responsive-nav.js"></script>
 </head>
 <body>
+<nav>
+    <!-- navigatiemenu geraadpleegde bron: w3schools https://www.w3schools.com/css/css_navbar.asp -->
+
+    <div class="navigation" id="responsiveNav">
+        <a id="logo" href="main.html"><img id="logoAfbeelding" src="assets/DiedreLogoBB.png" alt="Logo Diedre"/></a>
+        <a href="main.html">Home</a>
+        <a href="mywork.html">Work</a>
+        <a href="about.html">About</a>
+        <a href="#contact">Contact</a>
+        <a href="wplfiles.html">WPL Files</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</nav>
+<h2 id="work-title">My work</h2>
+<div class="work-flex-container">
+
+    <div>
+        <a href="work-advertisements.html">
+            <img class="image1" src="assets/advertisements/cover.jpg" alt="Advertisement poster">
+        </a>
+        <div class="desc">Advertisements</div>
+    </div>
+
+    <div>
+        <a href="work-collage.html">
+            <img class="image2" src="assets/collage/cover.jpg" alt="Collage">
+        </a>
+        <div class="desc">Collages</div>
+    </div>
+
+    <div>
+        <a href="work-illustrations.html">
+            <img class="image3" src="assets/illustrations/cover.jpg" alt="Illustration">
+        </a>
+        <div class="desc">Illustrations</div>
+    </div>
+
+    <div>
+        <a href="work-logos.html">
+            <img class="image4" src="assets/logos/cover.jpg" alt="Logo">
+        </a>
+        <div class="desc">Logo's</div>
+    </div>
+</div>    <div id="contact">
+    <h2>Contact</h2>
+    <p>Diedre Schwillens <br/><a href="mailto:d1edr3@gmail.com">d1edr3@gmail.com</a></p>
+</div>
+</main>
+<footer>
+    <p>Portfolio Diedre Schwillens</p>
+</footer>
 
 </body>
 </html>

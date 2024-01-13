@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300;500&display=swap');
+
+* {
+    font-family: 'Chivo Mono', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo {
+    float: left;
+    width: 3%
+}
+
+#logoAfbeelding {
+    width: calc(3rem + 3vw);
+}
+
+.navigation {
+    overflow: hidden;
+    /*  position: fixed; */
+}
+
+.navigation a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+
+    color: #31b1f6;
+}
+
+/* responsive menu icon*/
+.navigation .icon {
+    display: none;
+}
+
+/* >600 pixels wide*/
+@media screen and (max-width: 600px) {
+    /* alle links hidden behalve home + bar icoontje */
+    .navigation a:not(:first-child) {
+        display: none;
+    }
+
+    .navigation a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+header {
+    /* background-color: #0e0e0e;*/
+    padding: 20%;
+    text-align: center;
+    /* overflow: hidden;*/
+    position: relative;
+
+    height: 20%;
+}
+
+#intro-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /*   height: inherit;*/
+    object-fit: cover;
+    z-index: -1;
+}
+
+h1 {
+    font-family: 'Chivo Mono', monospace;
+    font-size: calc(1rem + 3vw);
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+
+#header-text {
+    font-size: calc(1rem + 1vw);
+}
+
+body {
+    background-color: #000000;
+    color: #ececf6;
+
+}
+
+h2 {
+    font-family: 'Chivo Mono', monospace;
+    font-weight: bold;
+}
+
+#work-title {
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+#back-button {
+    text-decoration: none;
+}
+
+#back-button:hover {
+    color: #31b1f6;
+}
+
+p {
+    font-family: 'Chivo Mono', monospace;
+    font-size: 12pt;
+    line-height: 20pt;
+
+}
+
+.desc {
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+#description {
+    background-color: #dcdbdb;
+    color: #131313;
+    padding: 5%
+}
+
+/* flexbox geraadpleegde bron: https://www.w3schools.com/css/css3_flexbox_container.asp */
+.work-flex-container {
+    background-color: #101010;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-flow: row wrap;
+
+}
+
+
+.image1 {
+    max-height: calc(6rem + 20vw);
+
+}
+
+.image1:hover {
+    border: 4px solid #cccccc;
+
+}
+
+.image2 {
+    max-height: calc(6rem + 20vw);
+
+}
+
+.image2:hover {
+    border: 4px solid #cccccc;
+
+}
+
+.image3 {
+    max-height: calc(6rem + 20vw);
+
+}
+
+.image3:hover {
+    border: 4px solid #cccccc;
+
+}
+
+.image4 {
+    max-height: calc(6rem + 20vw);
+
+}
+
+.image4:hover {
+    border: 4px solid #cccccc;
+
+}
+
+/*gallery images*/
+.image5 {
+    max-width: calc(9rem + 20vw);
+
+
+}
+
+.desc {
+  /*  float: inherit;*/
+
+
+}
+
+#contact {
+    background-color: #313131;
+    padding: 5%
+}
+
+footer {
+    background-color: #131313;
+    text-align: left;
+    padding: 3%;
+}
+
+/*mobile*/
+@media screen and (max-width: 600px) {
+    .navigation.responsive {
+        position: relative;
+    }
+
+    .navigation.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .navigation.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+
