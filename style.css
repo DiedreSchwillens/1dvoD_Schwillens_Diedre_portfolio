@@ -8,14 +8,7 @@
     box-sizing: border-box;
 }
 
-#logo {
-    float: left;
-    width: 3%
-}
 
-#logoAfbeelding {
-    width: calc(3rem + 3vw);
-}
 
 .navigation {
     overflow: hidden;
@@ -80,10 +73,12 @@ h1 {
     font-size: calc(1rem + 3vw);
     font-weight: bold;
     padding-bottom: 5%;
+    text-shadow: 4px 4px 7px #000000;
 }
 
 #header-text {
     font-size: calc(1rem + 1vw);
+    text-shadow: 4px 4px 7px #000000;
 }
 
 body {
@@ -188,8 +183,13 @@ p {
 
 }
 
-.desc {
-  /*  float: inherit;*/
+.wpl-download {
+    line-height: 20pt;
+
+
+}
+.wpl-download:hover {
+    color: #31b1f6;
 
 
 }
@@ -200,15 +200,23 @@ p {
 }
 
 footer {
-    background-color: #131313;
+    background-color: #000000;
     text-align: left;
-    padding: 3%;
+    padding: 5%;
+    position:relative
+
+}
+#footer-text{
+    position: absolute;
+    bottom: 2%;
+
 }
 
 /*mobile*/
 @media screen and (max-width: 600px) {
     .navigation.responsive {
         position: relative;
+        padding-top: 7%;
     }
 
     .navigation.responsive a.icon {
@@ -220,8 +228,16 @@ footer {
     .navigation.responsive a {
         float: none;
         display: block;
-        text-align: left;
+        text-align: right;
+
     }
 }
 
+#logo {
+    float: left;
+    width: 3%
+}
 
+#logoAfbeelding {
+    width: calc(3rem + 3vw);
+}
