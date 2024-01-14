@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300;500&display=swap');
 
 * {
@@ -8,11 +7,8 @@
     box-sizing: border-box;
 }
 
-
-
 .navigation {
     overflow: hidden;
-    /*  position: fixed; */
 }
 
 .navigation a {
@@ -49,12 +45,9 @@
 }
 
 header {
-    /* background-color: #0e0e0e;*/
     padding: 20%;
     text-align: center;
-    /* overflow: hidden;*/
     position: relative;
-
     height: 20%;
 }
 
@@ -63,7 +56,6 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    /*   height: inherit;*/
     object-fit: cover;
     z-index: -1;
 }
@@ -84,7 +76,6 @@ h1 {
 body {
     background-color: #000000;
     color: #ececf6;
-
 }
 
 h2 {
@@ -110,7 +101,6 @@ p {
     font-family: 'Chivo Mono', monospace;
     font-size: 12pt;
     line-height: 20pt;
-
 }
 
 .desc {
@@ -132,66 +122,51 @@ p {
     justify-content: space-around;
     align-items: stretch;
     flex-flow: row wrap;
-
 }
-
 
 .image1 {
     max-height: calc(6rem + 20vw);
-
 }
 
 .image1:hover {
     border: 4px solid #cccccc;
-
 }
 
 .image2 {
     max-height: calc(6rem + 20vw);
-
 }
 
 .image2:hover {
     border: 4px solid #cccccc;
-
 }
 
 .image3 {
     max-height: calc(6rem + 20vw);
-
 }
 
 .image3:hover {
     border: 4px solid #cccccc;
-
 }
 
 .image4 {
     max-height: calc(6rem + 20vw);
-
 }
 
 .image4:hover {
     border: 4px solid #cccccc;
-
 }
 
 /*gallery images*/
 .image5 {
     max-width: calc(9rem + 20vw);
-
-
 }
 
 .wpl-download {
     line-height: 20pt;
-
-
 }
+
 .wpl-download:hover {
     color: #31b1f6;
-
-
 }
 
 #contact {
@@ -203,13 +178,12 @@ footer {
     background-color: #000000;
     text-align: left;
     padding: 5%;
-    position:relative
-
+    position: relative
 }
-#footer-text{
+
+#footer-text {
     position: absolute;
     bottom: 2%;
-
 }
 
 /*mobile*/
