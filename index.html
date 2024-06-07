@@ -1,1 +1,84 @@
-<!-- YOUR NAME HERE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diedre's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="responsive-nav.js"></script>
+</head>
+<body>
+<nav>
+    <!-- navigatiemenu geraadpleegde bron: w3schools https://www.w3schools.com/css/css_navbar.asp -->
+
+    <div class="navigation" id="responsiveNav">
+        <a id="logo" href="index.html"><img id="logoAfbeelding" src="assets/DiedreLogoBB.png" alt="Logo Diedre"></a>
+        <a href="index.html">Home</a>
+        <a href="mywork.html">Work</a>
+        <a href="about.html">About</a>
+        <a href="#contact">Contact</a>
+        <a href="wpl1.html">WPL 1</a>
+        <a href="wpl2.html">WPL 2</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</nav>
+<main>
+    <header class="introduction">
+        <!-- navigatiemenu geraadpleegde bron: pmCodingTutorials https://www.youtube.com/watch?v=rVnfGSP5Ahw -->
+        <video autoplay muted loop playsinline id="intro-video">
+            <source src="assets/portfolio-video2.mp4">
+        </video>
+        <h1>Diedre Schwillens</h1>
+        <p id="header-text">Graphic design, video editing, illustrations & more</p>
+    </header>
+    <div id="description">
+        <h2>Hello,</h2>
+        <p>My name is Diedre. I'm a graphic designer with a passion for learning.<br>Currently, I'm studying
+            Digital Design at Hogeschool PXL.
+        </p>
+    </div>
+    <h2 id="work-title">My work</h2>
+    <div class="work-flex-container">
+
+        <div>
+            <a href="work-advertisements.html">
+                <img class="image1" src="assets/advertisements/cover.jpg" alt="Advertisement poster">
+            </a>
+            <div class="desc">Advertisements</div>
+        </div>
+
+        <div>
+            <a href="work-collage.html">
+                <img class="image2" src="assets/collage/cover.jpg" alt="Collage">
+            </a>
+            <div class="desc">Collages</div>
+        </div>
+
+        <div>
+            <a href="work-illustrations.html">
+                <img class="image3" src="assets/illustrations/cover.jpg" alt="Illustration">
+            </a>
+            <div class="desc">Illustrations</div>
+        </div>
+
+        <div>
+            <a href="work-logos.html">
+                <img class="image4" src="assets/logos/cover.jpg" alt="Logo">
+            </a>
+            <div class="desc">Logo Design</div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <h2>Contact</h2>
+        <p>Diedre Schwillens <br><a href="mailto:d1edr3@gmail.com">d1edr3@gmail.com</a></p>
+    </div>
+</main>
+<footer>
+    <p id="footer-text">Portfolio Diedre Schwillens</p>
+</footer>
+</body>
+</html>
